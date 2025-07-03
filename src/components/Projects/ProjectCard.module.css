@@ -8,21 +8,53 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  height: 550px; /* Fixed height for consistent shape */
 }
 
 .image {
   margin-bottom: 26px;
+  height: 120px; /* Fixed image height */
+  width: 100%;
+  object-fit: cover; /* Maintains aspect ratio */
+  border-radius: 5px;
 }
 
 .title {
   font-size: 25px;
   font-weight: 700;
+  height: auto; /* Let title take natural height */
+  min-height: 30px; /* Minimum height for consistency */
+  margin-bottom: 10px;
+  line-height: 1.2;
+  word-wrap: break-word;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px; /* Reduced font size for better fit */
   font-weight: 400;
+  height: 140px; /* Fixed height for description area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden;
+  line-height: 1.4;
+  padding-right: 5px;
+  word-wrap: break-word;
+  /* Custom scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) transparent;
+}
+
+.description::-webkit-scrollbar {
+  width: 4px;
+}
+
+.description::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.description::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 2px;
 }
 
 .skills {
@@ -33,29 +65,59 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  height: 100px; /* Fixed height for skills area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden;
+  align-content: flex-start;
+  padding-right: 5px;
+  /* Custom scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) transparent;
+}
+
+.skills::-webkit-scrollbar {
+  width: 4px;
+}
+
+.skills::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.skills::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 2px;
 }
 
 .skill {
-  font-size: 25px;
+  font-size: 16px; /* Reduced font size for better fit */
   font-weight: 400;
   border-radius: 100px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 4px 12px;
+  height: fit-content;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: auto; /* Push links to bottom */
   display: flex;
   justify-content: space-around;
+  padding-top: 10px;
 }
 
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
+  font-size: 20px; /* Reduced font size for better proportion */
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 8px 22px;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  opacity: 0.8;
 }

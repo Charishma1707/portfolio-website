@@ -62,3 +62,10 @@
     align-items: center;
   }
 }
+.leetcode {
+  width: 40px;        /* Set desired width */
+  height: 40px;       /* Set desired height */
+  object-fit: cover;   /* Maintains aspect ratio */
+  object-fit: contain;
+  border-radius: 50%; /* Fits entire image within bounds */
+}

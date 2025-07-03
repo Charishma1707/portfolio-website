@@ -1,26 +1,51 @@
 [
   {
-    "title": "Project A",
+    "title": "Ecommerce Website",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "description": "A full-featured eCommerce website built using the MERN stack (MongoDB, Express, React, Node.js) with modern tools like Redux Toolkit, ShadCN UI, Cloudinary, and PayPal integration. The platform supports multi-vendor functionality with dedicated admin and user interfaces. Both sellers and shoppers can interact seamlessly — sellers can manage products and orders, while customers can browse, purchase, and track orders easily.",
+    "skills": ["React", "Redux Toolkit", "Tailwind CSS", "ShadCN UI", "Node.js", "Express.js", "MongoDB", "JWT", "Cloudinary", "PayPal SDK"],
+    "demo": "https://e-commerce-project-mn9b.onrender.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
+    "title": "Streamify – MERN Stack Social & Learning Platform",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
+    "description": "Developed a full-stack application using the MERN stack, TanStack Query, and Streamify API, enabling real-time video streaming and messaging. The platform empowers users to share thoughts, learn new languages from each other, build friendships, and connect via chat and video calls. Successfully deployed the application on Render with a responsive UI and optimized performance for seamless interaction.",
+    "skills": ["React", "Node.js", "Express.js", "MongoDB", "TanStack Query", "Streamify API"],
+    "demo": "https://streamify-chat-messeging-and-video.onrender.com/",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
+    "title": "Hotel Booking Website – Frontend Project",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "description": "Designed and built a responsive hotel booking interface using React. Implemented interactive UI components for hotel listings, filtering, and booking actions. Prioritized intuitive layout and accessibility, delivering a modern and user-friendly frontend experience.",
+    "skills": ["React", "CSS", "Responsive Design"],
+    "demo": "https://quick-stay-a-hotel-booking-frontend.onrender.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Deep Learning ANN – Churn & Salary Prediction",
+    "imageSrc": "projects/project.png",
+    "description": "A deep learning artificial neural network (ANN) project to predict churn probability and salary prediction. Includes two separate Streamlit apps: one for customer salary prediction and one for churn prediction.",
+    "skills": ["Python", "TensorFlow", "Streamlit", "Pandas", "Numpy", "Matplotlib"],
+    "demo": "https://deep-learning-ann-project-fqufduevfrbtsk2i3w9sw7.streamlit.app",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Simple RNN – IMDb Review Sentiment Predictor",
+    "imageSrc": "projects/project.png",
+    "description": "A simple Streamlit app that uses a Recurrent Neural Network (RNN) to predict the sentiment (positive or negative) of IMDb movie reviews. Users can input a movie review and get instant predictions through an easy-to-use web interface.",
+    "skills": ["Python", "TensorFlow", "Streamlit", "RNN"],
+    "demo": "https://simple-rnn-predicting-setiment-of-imbdb-reveiws-anwdnvdbhkibee.streamlit.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Next Word Prediction using LSTM",
+    "imageSrc": "projects/project.png",
+    "description": "A lightweight Streamlit app that uses an LSTM-based Recurrent Neural Network (RNN) to predict the next word in a sentence. Users can type part of a sentence, and the model suggests the most likely next word based on learned patterns from a text corpus.",
+    "skills": ["Python", "TensorFlow", "Streamlit", "LSTM", "RNN"],
+    "demo": "https://next-word-prediction-lstm.streamlit.app",
     "source": "https://www.github.com"
   }
 ]
+

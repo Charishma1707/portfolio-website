@@ -1,29 +1,14 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
-  }
+  "role": "Research Intern",
+  "organisation": "ABVIIITM Gwalior",
+  "startDate": "May, 2024",
+  "endDate": "Jul, 2024",
+  "experiences": [
+    "Developed ECOQUEST mobile app for children's environmental education",
+    "Created interactive games and educational videos about pollution and environment",
+    "Worked with Advanced Material Research Group in Department of Engineering Sciences"
+  ],
+  "imageSrc": "history/abviiitm.png"
+}
 ]
